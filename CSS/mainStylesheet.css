@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #040405;
+}
+.mainContentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerMainDiv{
+    display: flex;
+    padding: 16px 0px;
+    width: 100%;
+    max-width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 112px;
+}
+a{
+    text-decoration-line: none;
+}
+.navBarFrame{
+    display: flex;
+    gap: 16px;
+}
+.whiteNavText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.connectWalletGreenButton{
+    border-radius: 24px;
+    background: #00FF1A;
+    padding: 12px 24px;  
+}
+.blackText{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.firstContainer{
+    display: flex;
+    width: 100%;
+    gap: 150px;
+    max-width: 1040px;
+    margin-bottom: 112px;
+}
+.firstContainerTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 564px;/*amas movubrunde*/
+}
+.convexDiv{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.firstContainerHeaderParagDiv{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.firstContainerButtonsFrame{
+    display: flex;
+    gap: 16px;
+    align-items: center2;
+}
+.firstHeader{
+    font-size: 72px;
+    font-weight: 900;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+.greyParag{
+    font-size: 20px;
+    color: #7A7A7A;
+    line-height: 32px;
+}
+button{
+    padding: 12px 24px;
+}
+.stakeNowButton{
+    border-radius: 24px;
+    background: #00FF1A;
+}
+.howitWorksBUtton{
+    background-color: transparent;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+}
+.middleDiv{
+    display: flex;
+    width: 100%;
+    max-width: 815px;
+    gap: 40px;
+    padding-top: 24px;
+    border-top: 1px solid #00FF1A;
+}
