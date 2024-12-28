@@ -44,60 +44,330 @@ a{
 }
 .firstContainer{
     display: flex;
-    width: 100%;
     gap: 150px;
+    width: 100%;
     max-width: 1040px;
     margin-bottom: 112px;
 }
-.firstContainerTextsDiv{
+.fotoK{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ContainerTextsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+    width: 564px;/*amsa movubrunde max width?*/
+}
+.welcomeConvexDiv, .headerAndParagDiv, .buttonsDiv{
+    display: flex;
+}
+.welcomeConvexDiv{
+    gap: 15px;
+    align-items: center;
+}
+.buttonsDiv{
+    gap: 16px;
+}
+.headerAndParagDiv{
+    flex-direction: column;
+}
+.contaienrHeader{
+    color: #FFF;
+    font-size: 72px;
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+.greyText{
+    color: #7A7A7A;
+    font-size: 20px;
+    line-height: 32px;
+}
+.greenButton{
+    border-radius: 24px;
+    background: #00FF1A;
+    padding: 12px 24px;
+}
+.blackBUtton{
+    background-color: transparent;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    padding: 12px 24px;
+}
+button{
+    border: none;
+}
+.whiteButtonText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.blackTextButton{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.middleDiv{
+    display: flex;
+    border-top: 1px solid #00FF1A;
+    padding-top: 24px;
+    gap: 40px;
+    width: fit-content
+}
+.middleDivDivs{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 564px;/*amas movubrunde*/
 }
-.convexDiv{
+.numbers{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+}
+.middleDivWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    align-items: flex-start;
+    margin-bottom: 112px;
+}
+.secondContainer{
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    margin-bottom: 112px;
+    gap: 72px;
+}
+.listsDiv{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 100%;/*vnaxot*/
+}
+.listsInnerFrame{
+    display: flex;
+    gap: 16px;
+}
+.listTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.whiteListHeader{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 900;
+}
+.howItWorksMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1040px;
+    margin-bottom: 105px;
+    align-items: center;
+    gap: 32px;
+}
+.howItWoksLittleDivMainDiv{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+}
+.registerDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;/*rato ar mushaobs? yvela mshobel dvs udna gavuwero?*/
+    gap: 37px;
+}
+.regitserTextsDiv{
+    display: flex;
+    width: 245px;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.registerDivWrapper{
+    display: flex;
+    gap: 3px;
+}
+.registerHeader{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+.greyTextP{
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 16px;
+}
+.thirdMainContaiener{
+    display: flex;
+    margin-bottom: 112px;
+    gap: 30px;
+}
+.depositDivMainFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.depositMianDivWrapper{
+    display: flex;
+    gap: 16px;
+}
+.depositLittleDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 16px 24px 16px;
+    border-left: 2px solid #4A4A4E;
+}
+.depositLittleDivFirst{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 16px 24px 16px;
+    border-left: 2px solid #00FF1A;
+}
+.testimonialsMainDiv{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 1040px;
+    margin-bottom: 225px;
+}
+.leftTestemonialDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 624px;
+}
+.rightTestemonialsDiv{
+    display: flex;
+    width: 100%;
+    background-color: #1C1C20;
+    padding: 45px 32px;
+    max-width: 392px;
+    flex-direction: column;
+}
+.upperDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.greyBox{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    margin-top: 12px;
+    background-color: #1C1C20;
+}
+.cameronCommentMainDiv{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;/*wesit*/
+}
+.avatarCommentDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 440px;
+}
+.cameronComment{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.cameron{
+    font-size: 16px;
+    color: #FFF;
+}
+.williamsonDiv{
+    display: flex;  
+    align-items: center;
+}
+.littleDetail{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.tinyGreyText{
+    font-size: 14px;
+    color: #7A7A7A;
+    margin-right: 13px;
+}
+.starsDiv{
+    display: flex;
+    gap: 1px;
+}
+.logoAp{
+    width: 32px;
+    height: 32px;
+}
+.down{
+    display: flex;
+    justify-content: flex-end;
+}
+.commentMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.commentSpan{
+    color: #00FF1A;
+    font-weight: 600;
+}
+.commentText{
+    color: #B7B7B7;
+    font-size: 22px;
+    font-style: italic;
+}
+.commentHeader{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.arrowsMainDiv{
+    display: flex;
+    gap: 16px;
+}
+.phoneDIv{
     display: flex;
     gap: 12px;
     align-items: center;
 }
-.firstContainerHeaderParagDiv{
+.servicesDiv{
     display: flex;
-    gap: 16px;
     flex-direction: column;
+    gap: 12px;2
 }
-.firstContainerButtonsFrame{
+.form{
     display: flex;
-    gap: 16px;
-    align-items: center2;
+    flex-direction: column;
+    gap: 24px;
 }
-.firstHeader{
-    font-size: 72px;
-    font-weight: 900;
-    color: #FFF;
-    margin-bottom: 16px;
-}
-.greyParag{
-    font-size: 20px;
-    color: #7A7A7A;
-    line-height: 32px;
-}
-button{
-    padding: 12px 24px;
-}
-.stakeNowButton{
-    border-radius: 24px;
-    background: #00FF1A;
-}
-.howitWorksBUtton{
+input{
+    padding: 16px;
     background-color: transparent;
-    border-radius: 24px;
-    border: 1px solid #00FF1A;
+    border-radius: 4px;
+    border: 1px solid #565656;
 }
-.middleDiv{
-    display: flex;
-    width: 100%;
-    max-width: 815px;
-    gap: 40px;
-    padding-top: 24px;
-    border-top: 1px solid #00FF1A;
+.descirpionInput{
+    height: 155px;  
+}
+.submiTT{
+    border-radius: 4px;
+    background: #00FF1A;
+    padding-block-end: 12px 16px;
+}
+input[submit]{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+label{
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 20px;
 }
