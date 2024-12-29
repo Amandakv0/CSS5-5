@@ -371,3 +371,24 @@ label{
     margin-top: 20px;
     font-size: 20px;
 }
+.footerWrapper{
+    display: flex;
+    border-top: 1px solid #00FF1A;
+    width: 100%;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.footerContentMainFrame{
+    display: flex;
+    gap: 200px;
+    align-items: flex-start;
+}
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.socialLogosDiv{
+    display: flex;
+    gap: 16px;
+}
